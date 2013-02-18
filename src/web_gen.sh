@@ -1,3 +1,4 @@
+#!/bin/bash
 if test -e HelloTizen; then
     rm -r HelloTizen
 fi
