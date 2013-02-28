@@ -1,9 +1,0 @@
-[submodule "third_party/brackets"]
-	path = third_party/brackets
-	url = git@github.com:zhizhangchen/brackets.git
-[submodule "third_party/noVNC"]
-	path = third_party/noVNC
-	url = https://github.com/zhizhangchen/noVNC
-[submodule "third_party/web-simulator"]
-	path = third_party/web-simulator
-	url = https://github.com/zhizhangchen/web-simulator
