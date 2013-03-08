@@ -55,8 +55,12 @@ define(function main(require, exports, module) {
         return "edit." + keyMap + "KeyMapping";
     };
     var _setKeyMap = function (keyMap, checked) {
-        var codeMirror = EditorManager.getCurrentFullEditor()._codeMirror;
+        var editor = EditorManager.getCurrentFullEditor()
         var cmdKeyMap = CommandManager.get(_getKeyMapCommandID(keyMap));
+        var codeMirror;
+        if (!editor)
+            return;
+        codeMirror = editor._codeMirror;
         if (checked === undefined)
             checked = !cmdKeyMap.getChecked();
         cmdKeyMap.setChecked(checked);
