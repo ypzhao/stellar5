@@ -1,6 +1,6 @@
 [submodule "third_party/brackets"]
 	path = third_party/brackets
-	url = git@github.com:zhizhangchen/brackets.git
+	url = https://github.com/zhizhangchen/brackets
 [submodule "third_party/noVNC"]
 	path = third_party/noVNC
 	url = https://github.com/zhizhangchen/noVNC
